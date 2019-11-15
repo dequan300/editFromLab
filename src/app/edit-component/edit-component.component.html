@@ -1,0 +1,14 @@
+<form (ngSubmit)="submitProfile" #form="ngForm">
+    <p>
+        <label for=""> <input type="text" [(ngModel)]="userData.name" name="input1"></label >
+
+    </p>
+
+    <p>
+        <label for=""><input type="text" [(ngModel)]="userData.contact" name="input2"></label>
+    </p>
+    <p>
+        <label for=""><input type="text" [(ngModel)]="userData.bio" name="input3"></label>
+    </p>
+    <button>edit</button>
+</form>
